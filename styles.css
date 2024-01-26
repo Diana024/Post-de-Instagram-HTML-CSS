@@ -1,21 +1,22 @@
 body{
     background-color: rgb(235, 233, 233);
-    font: robot-type;
+    font-family: 'Roboto', sans-serif;
     font-size: large;
-    display: flex;
-    justify-content: center;
 }
 
 .post {
     background-color: white;
-    margin:center;
+    margin:30px auto;
     width: 800px;
 }
 
 .post-header{
     display: flex;
-    height: 80px;
-    border-left:  15px;
+    border-left: 15px;
+    padding: 25px;
+}
+
+.icons{
     padding: 5px;
 }
 
@@ -23,7 +24,8 @@ body{
     width: 100%;
 }
 
-h1 {padding:2px;
+h1 {
+    padding:2px;
     margin: 0%;
     font-size: x-large;
 }
@@ -42,7 +44,12 @@ h2 {
 }
 
 
-.post-icons, i{
+.post-icons{
+    display: flex;
+    padding: 25px 25px 0px 25px;
+}
+
+i{
     display: flex;
     padding: 5px;
 }
